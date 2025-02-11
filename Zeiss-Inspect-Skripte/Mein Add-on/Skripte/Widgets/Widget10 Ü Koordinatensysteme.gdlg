@@ -1,0 +1,77 @@
+{
+    "content": [
+        [
+            {
+                "columns": 1,
+                "name": "label",
+                "rows": 1,
+                "text": {
+                    "id": "",
+                    "text": "Überprüfen Sie die Lage der Koordinatensysteme",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "label",
+                "word_wrap": false
+            }
+        ],
+        [
+            {
+                "columns": 1,
+                "name": "checkbox_Soll_Koordinatensystem",
+                "rows": 1,
+                "title": {
+                    "id": "",
+                    "text": "Soll-Koordinatensystem",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "input::checkbox",
+                "value": false
+            }
+        ],
+        [
+            {
+                "columns": 1,
+                "name": "checkbox_Ist_Koordiantensystem",
+                "rows": 1,
+                "title": {
+                    "id": "",
+                    "text": "Ist-Koordinatensystem",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "input::checkbox",
+                "value": false
+            }
+        ]
+    ],
+    "control": {
+        "id": "OkCancel"
+    },
+    "embedding": "always_toplevel",
+    "position": "center",
+    "size": {
+        "height": 142,
+        "width": 276
+    },
+    "sizemode": "automatic",
+    "style": "",
+    "title": {
+        "id": "",
+        "text": "Überprüfung der Koordinatensysteme",
+        "translatable": true
+    }
+}

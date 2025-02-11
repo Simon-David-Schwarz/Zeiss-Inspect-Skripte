@@ -1,0 +1,71 @@
+{
+    "content": [
+        [
+            {
+                "columns": 1,
+                "name": "label",
+                "rows": 1,
+                "text": {
+                    "id": "",
+                    "text": "Soll die Auswertung mit GUI durchgeführt werden ?",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "label",
+                "word_wrap": false
+            }
+        ],
+        [
+            {
+                "columns": 1,
+                "default": "Geführt",
+                "items": [
+                    {
+                        "description": {
+                            "id": "",
+                            "text": "Auswertung mit GUI",
+                            "translatable": true
+                        },
+                        "state": "Geführt"
+                    },
+                    {
+                        "description": {
+                            "id": "",
+                            "text": "Auswertung ohne GUI",
+                            "translatable": true
+                        },
+                        "state": "Ungeführt"
+                    }
+                ],
+                "name": "radiobuttons",
+                "rows": 1,
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "input::radiobutton"
+            }
+        ]
+    ],
+    "control": {
+        "id": "OkCancel"
+    },
+    "embedding": "always_toplevel",
+    "position": "center",
+    "size": {
+        "height": 138,
+        "width": 291
+    },
+    "sizemode": "automatic",
+    "style": "",
+    "title": {
+        "id": "",
+        "text": "Wanddickenauswertung ",
+        "translatable": true
+    }
+}

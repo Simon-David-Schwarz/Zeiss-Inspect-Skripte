@@ -1,0 +1,60 @@
+{
+    "content": [
+        [
+            {
+                "columns": 1,
+                "default_font_family": "",
+                "default_font_size": 0,
+                "name": "text",
+                "rows": 1,
+                "text": {
+                    "id": "",
+                    "text": "<html><p>Überprüfen Sie die Selektion des Z-Schnittes am Außenring. <br/>Bei falscher Selektion korrigieren Sie diese. </p></html>",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "display::text",
+                "wordwrap": false
+            }
+        ],
+        [
+            {
+                "columns": 1,
+                "name": "checkbox_Widget6",
+                "rows": 1,
+                "title": {
+                    "id": "",
+                    "text": "Selektion überprüft/korrigiert",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "input::checkbox",
+                "value": false
+            }
+        ]
+    ],
+    "control": {
+        "id": "OkCancel"
+    },
+    "embedding": "always_toplevel",
+    "position": "center",
+    "size": {
+        "height": 166,
+        "width": 350
+    },
+    "sizemode": "automatic",
+    "style": "",
+    "title": {
+        "id": "",
+        "text": "Überprüfung Z-Schnitt Außenring ",
+        "translatable": true
+    }
+}

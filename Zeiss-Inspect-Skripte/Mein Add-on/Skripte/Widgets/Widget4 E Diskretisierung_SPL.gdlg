@@ -1,0 +1,53 @@
+{
+    "content": [
+        [
+            {
+                "columns": 1,
+                "name": "label",
+                "rows": 1,
+                "text": {
+                    "id": "",
+                    "text": "Punktabstand der Schwerpunktlinie [mm]",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "label",
+                "word_wrap": false
+            },
+            {
+                "columns": 1,
+                "maximum": 1000,
+                "minimum": 0,
+                "name": "input_Diskretisierung_SPL",
+                "rows": 1,
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "input::integer",
+                "value": 0
+            }
+        ]
+    ],
+    "control": {
+        "id": "OkCancel"
+    },
+    "embedding": "always_toplevel",
+    "position": "center",
+    "size": {
+        "height": 96,
+        "width": 294
+    },
+    "sizemode": "",
+    "style": "",
+    "title": {
+        "id": "",
+        "text": "Diskretisierung der Schwerpunktlinie",
+        "translatable": true
+    }
+}

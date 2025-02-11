@@ -1,0 +1,71 @@
+{
+    "content": [
+        [
+            {
+                "columns": 1,
+                "name": "label",
+                "rows": 1,
+                "text": {
+                    "id": "",
+                    "text": "Wollen Sie die Ergebnisse jetzt oder zu einem späteren Zeitpunkt exportieren ?",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "label",
+                "word_wrap": false
+            }
+        ],
+        [
+            {
+                "columns": 1,
+                "default": "Jetzt",
+                "items": [
+                    {
+                        "description": {
+                            "id": "",
+                            "text": "Jetzt Exportieren ",
+                            "translatable": true
+                        },
+                        "state": "Jetzt"
+                    },
+                    {
+                        "description": {
+                            "id": "",
+                            "text": "Später Exportieren ",
+                            "translatable": true
+                        },
+                        "state": "Später"
+                    }
+                ],
+                "name": "radiobuttons",
+                "rows": 1,
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "input::radiobutton"
+            }
+        ]
+    ],
+    "control": {
+        "id": "OkCancel"
+    },
+    "embedding": "always_toplevel",
+    "position": "center",
+    "size": {
+        "height": 138,
+        "width": 429
+    },
+    "sizemode": "automatic",
+    "style": "",
+    "title": {
+        "id": "",
+        "text": "Export ",
+        "translatable": true
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "content": [
+        [
+            {
+                "columns": 1,
+                "name": "label",
+                "rows": 1,
+                "text": {
+                    "id": "",
+                    "text": "Soll die Wandicke bei der Auswertung mit betrachtet weden ? ",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "label",
+                "word_wrap": false
+            }
+        ],
+        [
+            {
+                "columns": 1,
+                "default": "Mit_Wanddicke",
+                "items": [
+                    {
+                        "description": {
+                            "id": "",
+                            "text": "Auswertung mit Wanddicke",
+                            "translatable": true
+                        },
+                        "state": "Mit_Wanddicke"
+                    },
+                    {
+                        "description": {
+                            "id": "",
+                            "text": "Auswertung ohne Wanddicke",
+                            "translatable": true
+                        },
+                        "state": "Ohne_Wanddicke"
+                    }
+                ],
+                "name": "radiobuttons",
+                "rows": 1,
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "input::radiobutton"
+            }
+        ]
+    ],
+    "control": {
+        "id": "OkCancel"
+    },
+    "embedding": "always_toplevel",
+    "position": "center",
+    "size": {
+        "height": 138,
+        "width": 346
+    },
+    "sizemode": "automatic",
+    "style": "",
+    "title": {
+        "id": "",
+        "text": "Wanddickenauswertung ",
+        "translatable": true
+    }
+}

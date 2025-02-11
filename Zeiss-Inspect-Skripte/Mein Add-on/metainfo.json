@@ -1,0 +1,19 @@
+{
+    "author": "",
+    "description": "",
+    "labels": [
+    ],
+    "licensing": {
+        "licenses": [
+        ],
+        "product-codes": [
+        ]
+    },
+    "software-revision": "1520",
+    "software-version": "ZEISS INSPECT 2023",
+    "tags": [
+    ],
+    "title": "Mein Add-on",
+    "uuid": "a6e7eebc-5eb6-4ce8-a019-486a2065c138",
+    "version": "1.0.0"
+}

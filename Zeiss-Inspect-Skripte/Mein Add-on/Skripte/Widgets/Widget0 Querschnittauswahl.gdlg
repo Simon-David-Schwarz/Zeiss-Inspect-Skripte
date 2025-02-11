@@ -1,0 +1,69 @@
+{
+    "content": [
+        [
+            {
+                "columns": 1,
+                "name": "label",
+                "rows": 1,
+                "text": {
+                    "id": "",
+                    "text": "Welche Geometrie hat der Rohrquerschnitt ?",
+                    "translatable": true
+                },
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "label",
+                "word_wrap": false
+            },
+            {
+                "columns": 1,
+                "default": "Kreisförmig",
+                "items": [
+                    {
+                        "description": {
+                            "id": "",
+                            "text": "Kreisförmig",
+                            "translatable": true
+                        },
+                        "state": "Kreisförmig"
+                    },
+                    {
+                        "description": {
+                            "id": "",
+                            "text": "Rechteckförmig",
+                            "translatable": true
+                        },
+                        "state": "Rechteckförmig"
+                    }
+                ],
+                "name": "radiobuttons",
+                "rows": 1,
+                "tooltip": {
+                    "id": "",
+                    "text": "",
+                    "translatable": true
+                },
+                "type": "input::radiobutton"
+            }
+        ]
+    ],
+    "control": {
+        "id": "OkCancel"
+    },
+    "embedding": "always_toplevel",
+    "position": "center",
+    "size": {
+        "height": 113,
+        "width": 370
+    },
+    "sizemode": "automatic",
+    "style": "",
+    "title": {
+        "id": "",
+        "text": "Querschnittauswahl",
+        "translatable": true
+    }
+}
